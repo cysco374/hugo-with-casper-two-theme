@@ -47,7 +47,7 @@ title           = "News Blog | Casper Two"
 
 [[menu.main]]
   name = "Life"
-  url = "/tags/life/"
+  url = "/categories/life/"
   weight = 100
 
 [[menu.main]]
