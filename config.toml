@@ -1,0 +1,61 @@
+baseurl         = "http://example.caspertwo/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+title           = "News Blog | Casper Two"
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "News Blog | Casper Two"
+  subtitle    = "Website Profile"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Cysco"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Jogja, ID"
+  authorWebsite = "http://anchornetmedia.com"
+  authorDescription = "Be yourself"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Life"
+  url = "/tags/life/"
+  weight = 100
+
+[[menu.main]]
+  name = "Blockchain"
+  url = "/categories/blockchain/"
+  weight = 99
+
+[[menu.main]]
+  name = "Mbatin"
+  url = "http://mbatin.com/"
+  weight = 95
